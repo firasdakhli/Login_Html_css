@@ -1,0 +1,43 @@
+body{
+	font-family: Arial, Helvetica,sans-serif;
+	background:url("bg.jpg") no-repeat;
+	background-size:cover;
+	margin: 0;
+	padding: 0;
+	color:#cccccc;
+
+}
+.container{
+	margin-top: 200px;
+	margin-left: 650px;
+}
+.text1{
+	overflow: hidden;
+	padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+    width: 300px;
+}
+.btn{
+	height: 35px;
+	width:300px;
+	background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+}
+.btn:hover{
+  background: black;
+  
+}
+
+.text1 input{
+	border:none;
+	width: 200px;
+	background: none;
+	color:#4caf50;
+	font-size: 18px;
+	outline: none; /*pour supprimer le cadre quand on ecrit*/
+}
+
+  
